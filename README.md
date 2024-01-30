@@ -70,8 +70,5 @@ This project is a testament to our commitment to delivering a high-quality C com
 
 ### Compile and Run
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/your-username/advanced-c-compiler.git
-   cd advanced-c-compiler
+1. Compile lexical.cpp
+2. Compile Syntax_Semantic_Syntaxtree.cpp
