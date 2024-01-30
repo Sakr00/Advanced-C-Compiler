@@ -42,17 +42,17 @@ The syntax tree is visualized within the code with comments, offering a clear re
 
      
 
-   -*/*Syntax Analyzer:*
+   /*Syntax Analyzer:*
 
    ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/d8b6f535-966e-49be-a599-bd5574a8d369)
 
 
-   -*/*Semantic Analyzer:*
+   /*Semantic Analyzer:*
 
    ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/4ca82414-a4c5-4fb1-85b1-05f490d32391)
 
 
-   -*/*Syntax Tree:*
+   /*Syntax Tree:*
 
    ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/e284805d-6ff6-4566-95ec-b101d598786a)
 
