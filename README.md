@@ -13,6 +13,50 @@ This feature-rich C compiler goes beyond traditional tools, offering a cutting-e
 - **Syntax Tree Visualization:** Provides a visual representation of the syntax tree.
 - **Visualized Analyzers:** Displays the syntax analyzer and semantic analyzer outputs as tree structures.
 
+## Code Organization
+
+### Lexer
+Tokenizes the input C code.
+
+### Syntax Analyzer
+Parses the token stream and generates a detailed syntax tree.
+
+### Semantic Analyzer
+Performs intricate type checking and semantic analysis.
+
+### CFG Definitions
+Provides a comprehensive set of grammar rules for code parsing.
+
+### Syntax Tree Visualization
+The syntax tree is visualized within the code with comments, offering a clear representation of the code structure. Additionally, the syntax tree is printed to a file (`Parse_tree_output.txt`) for reference.
+
+## Example
+
+   **/*hello my name is sakr*/
+   while (i < 5) {
+   printf("%d\n", i);
+    i++;
+   }**
+
+   -*/*Lexical phase:*
+
+     
+
+   -*/*Syntax Analyzer:*
+
+   ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/d8b6f535-966e-49be-a599-bd5574a8d369)
+
+
+   -*/*Semantic Analyzer:*
+
+   ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/4ca82414-a4c5-4fb1-85b1-05f490d32391)
+
+
+   -*/*Syntax Tree:*
+
+   ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/e284805d-6ff6-4566-95ec-b101d598786a)
+
+
 ## Effort and Dedication
 
 This project is a testament to our commitment to delivering a high-quality C compiler. The lexer ensures precise tokenization, the syntax analyzer constructs a detailed tree structure, and the semantic analyzer performs intricate type checking. The visualization of these processes enhances the overall understanding of code compilation.
