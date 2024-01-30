@@ -40,7 +40,8 @@ The syntax tree is visualized within the code with comments, offering a clear re
 
    /*Lexical phase:*
 
-     
+  ![Lexical_output](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/84b2d0ab-e5bd-4997-b10c-d0645e0489da)
+
 
    /*Syntax Analyzer:*
 
