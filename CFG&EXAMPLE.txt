@@ -1,0 +1,26 @@
+ex: while (i < 5) {
+printf("%d\n", i);
+ i++;
+}
+
+
+body --> printf_statment body / while_statment body / operation_statment body / multiple_comment_statment body/declaration_statment body/ ε (change)
+while_statment --> while(condtion) { body }
+printf_statment --> printf(STRING); / printf(STRING, var);
+STRING --> "var esc_seq" / "var place_holder esc_seq"/ .... / ε
+condition --> var cond_op int
+var --> a var / b var / c var / ... / A var / B var / ... / Z var / ε
+cond_op --> == / <= / >= / < / > / !=
+num --> digit / digit num 
+digit --> 0 / 1 / 2 / .... / 9
+operation --> + / - / * / / / ...
+eq --> =
+place_holder --> %d / %f / %s
+operation_statment --> var eq var operation var**; / var eq var operation num; / var eq num operation num; /var eq num operation var**; / var operation operation;
+esc_seq --> \n / \t / ... / ε
+start_comment --> /*
+end_comment --> */
+multiple_comment_statment --> start_comment comment end_comment
+one_line_comment --> // comment
+declaration_statment-->int var eq num;/ int var eq digit; / string var eq "var"; / float var eq floatnum;
+
