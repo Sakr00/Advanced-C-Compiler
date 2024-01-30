@@ -38,7 +38,7 @@ The syntax tree is visualized within the code with comments, offering a clear re
     i++;
    }**
 
-   -*/*Lexical phase:*
+   /*Lexical phase:*
 
      
 
