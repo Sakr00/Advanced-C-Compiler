@@ -32,11 +32,19 @@ The syntax tree is visualized within the code with comments, offering a clear re
 
 ## Example
 
+  
+
    **/*hello my name is sakr*/
    while (i < 5) {
    printf("%d\n", i);
     i++;
    }**
+
+   /*CFG Production Rules*
+
+   
+  ![image](https://github.com/Sakr00/Advanced-C-Compiler/assets/111249727/61ef83c1-0577-4bc4-9b46-c4dea5c71fa3)
+
 
    /*Lexical phase:*
 
